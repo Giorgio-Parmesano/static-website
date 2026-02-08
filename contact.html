@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - La Tavola</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="logo">La Tavola</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>Contact &amp; Reservations</h1>
+      <p>We'd love to hear from you</p>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-grid">
+
+        <div class="contact-info">
+          <h2>Get in Touch</h2>
+          <p><strong>Address:</strong><br>123 Olive Garden Lane<br>Little Italy, NY 10013</p>
+          <p><strong>Phone:</strong><br>(212) 555-0142</p>
+          <p><strong>Email:</strong><br>info@latavola.example.com</p>
+          <p><strong>Hours:</strong></p>
+          <p>
+            Monday - Thursday: 11:00 AM - 9:00 PM<br>
+            Friday - Saturday: 11:00 AM - 10:30 PM<br>
+            Sunday: 12:00 PM - 8:00 PM
+          </p>
+        </div>
+
+        <div class="reservation-form">
+          <h2>Make a Reservation</h2>
+          <form id="reservation-form" action="#" method="post">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+              <label for="date">Date</label>
+              <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+              <label for="time">Time</label>
+              <input type="time" id="time" name="time" required>
+            </div>
+            <div class="form-group">
+              <label for="guests">Number of Guests</label>
+              <select id="guests" name="guests" required>
+                <option value="">Select...</option>
+                <option value="1">1 Guest</option>
+                <option value="2">2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="5">5 Guests</option>
+                <option value="6">6 Guests</option>
+                <option value="7">7+ Guests</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Special Requests</label>
+              <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Request Reservation</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 La Tavola. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
