@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#faf3e0"/>
+  <!-- Plate -->
+  <ellipse cx="100" cy="110" rx="80" ry="55" fill="#f0ebe0"/>
+  <ellipse cx="100" cy="110" rx="72" ry="48" fill="#fff"/>
+  <!-- Sage butter sauce -->
+  <ellipse cx="100" cy="112" rx="55" ry="30" fill="#e8d8a0" opacity="0.4"/>
+  <!-- Ravioli -->
+  <rect x="65" y="95" width="30" height="25" rx="5" fill="#f0d890" stroke="#d4b870" stroke-width="1.5"/>
+  <line x1="65" y1="95" x2="95" y2="95" stroke="#d4b870" stroke-width="2" stroke-dasharray="3,3"/>
+  <rect x="105" y="92" width="30" height="25" rx="5" fill="#ecd080" stroke="#d4b870" stroke-width="1.5"/>
+  <line x1="105" y1="92" x2="135" y2="92" stroke="#d4b870" stroke-width="2" stroke-dasharray="3,3"/>
+  <rect x="82" y="115" width="30" height="25" rx="5" fill="#f0d890" stroke="#d4b870" stroke-width="1.5"/>
+  <line x1="82" y1="115" x2="112" y2="115" stroke="#d4b870" stroke-width="2" stroke-dasharray="3,3"/>
+  <!-- Sage leaves -->
+  <ellipse cx="72" cy="108" rx="6" ry="3" fill="#6a8a4f" transform="rotate(-20 72 108)"/>
+  <ellipse cx="128" cy="105" rx="5" ry="2.5" fill="#5a7a3f" transform="rotate(15 128 105)"/>
+  <!-- Butter drizzle -->
+  <path d="M70 120 Q90 115 110 120 Q125 125 140 118" fill="none" stroke="#d4b040" stroke-width="1.5" opacity="0.5"/>
+</svg>

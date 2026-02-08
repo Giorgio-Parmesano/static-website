@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#faf3e0"/>
+  <!-- Plate -->
+  <ellipse cx="100" cy="120" rx="70" ry="35" fill="#f0ebe0"/>
+  <ellipse cx="100" cy="120" rx="63" ry="30" fill="#fff"/>
+  <!-- Panna cotta dome -->
+  <ellipse cx="100" cy="115" rx="28" ry="12" fill="#faf5e8"/>
+  <path d="M72 115 Q72 85 100 85 Q128 85 128 115" fill="#faf5e8"/>
+  <path d="M75 115 Q75 88 100 88 Q125 88 125 115" fill="#fff"/>
+  <!-- Berry compote -->
+  <ellipse cx="100" cy="120" rx="40" ry="15" fill="#8a2050" opacity="0.3"/>
+  <!-- Berries -->
+  <circle cx="70" cy="120" r="5" fill="#a03060"/>
+  <circle cx="82" cy="125" r="4" fill="#d04080"/>
+  <circle cx="118" cy="122" r="4.5" fill="#a03060"/>
+  <circle cx="130" cy="118" r="4" fill="#6030a0"/>
+  <circle cx="125" cy="126" r="3.5" fill="#d04080"/>
+  <!-- Berry sauce drip -->
+  <path d="M90 100 Q92 105 95 100" fill="none" stroke="#8a2050" stroke-width="1.5" opacity="0.5"/>
+</svg>

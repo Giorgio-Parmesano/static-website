@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#faf3e0"/>
+  <!-- Plate -->
+  <ellipse cx="100" cy="110" rx="80" ry="55" fill="#f0ebe0"/>
+  <ellipse cx="100" cy="110" rx="72" ry="48" fill="#fff"/>
+  <!-- Fish body -->
+  <ellipse cx="100" cy="108" rx="50" ry="18" fill="#d0c8b0"/>
+  <ellipse cx="100" cy="105" rx="48" ry="16" fill="#e0d8c0"/>
+  <!-- Fish scoring lines -->
+  <line x1="80" y1="96" x2="82" y2="118" stroke="#c0b8a0" stroke-width="1"/>
+  <line x1="92" y1="94" x2="94" y2="120" stroke="#c0b8a0" stroke-width="1"/>
+  <line x1="104" y1="94" x2="106" y2="120" stroke="#c0b8a0" stroke-width="1"/>
+  <line x1="116" y1="96" x2="118" y2="118" stroke="#c0b8a0" stroke-width="1"/>
+  <!-- Tail -->
+  <path d="M148 105 Q160 95 158 108 Q160 120 148 112Z" fill="#d0c8b0"/>
+  <!-- Eye -->
+  <circle cx="58" cy="105" r="3" fill="#333"/>
+  <!-- Cherry tomatoes -->
+  <circle cx="80" cy="125" r="5" fill="#d44a3a"/>
+  <circle cx="92" cy="128" r="4.5" fill="#e05545"/>
+  <!-- Olives -->
+  <circle cx="115" cy="125" r="4" fill="#3a3a2a"/>
+  <circle cx="125" cy="122" r="3.5" fill="#4a4a3a"/>
+  <!-- Herbs -->
+  <path d="M70 95 Q65 85 60 90 Q65 96 70 95Z" fill="#4a8c3f"/>
+  <path d="M130 98 Q135 88 140 93 Q135 100 130 98Z" fill="#5a9c4f"/>
+</svg>

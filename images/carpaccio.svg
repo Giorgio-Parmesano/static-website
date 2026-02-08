@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#faf3e0"/>
+  <!-- Plate -->
+  <ellipse cx="100" cy="110" rx="80" ry="55" fill="#f0ebe0"/>
+  <ellipse cx="100" cy="110" rx="72" ry="48" fill="#fff"/>
+  <!-- Beef slices -->
+  <ellipse cx="80" cy="105" rx="28" ry="15" fill="#a83232" opacity="0.8"/>
+  <ellipse cx="110" cy="100" rx="25" ry="14" fill="#c04040" opacity="0.75"/>
+  <ellipse cx="95" cy="115" rx="26" ry="13" fill="#b83838" opacity="0.7"/>
+  <!-- Arugula -->
+  <path d="M70 95 Q65 82 58 88 Q64 96 70 95Z" fill="#5a9c4f"/>
+  <path d="M120 93 Q125 80 132 86 Q126 95 120 93Z" fill="#4a8c3f"/>
+  <path d="M95 90 Q92 78 85 83 Q90 92 95 90Z" fill="#6aac5f"/>
+  <!-- Parmesan shavings -->
+  <path d="M105 108 Q112 102 118 108 Q112 110 105 108Z" fill="#f5e6b8"/>
+  <path d="M75 112 Q80 106 87 110 Q81 114 75 112Z" fill="#f5e6b8"/>
+</svg>

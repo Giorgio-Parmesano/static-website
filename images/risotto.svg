@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#faf3e0"/>
+  <!-- Bowl -->
+  <ellipse cx="100" cy="120" rx="75" ry="45" fill="#e8e0d0"/>
+  <ellipse cx="100" cy="115" rx="70" ry="40" fill="#f5f0e5"/>
+  <!-- Risotto base -->
+  <ellipse cx="100" cy="112" rx="58" ry="32" fill="#f0e8c8"/>
+  <!-- Mushroom slices -->
+  <path d="M75 105 Q80 92 90 100 Q85 108 75 105Z" fill="#8a6a40"/>
+  <path d="M110 100 Q115 88 125 96 Q120 105 110 100Z" fill="#7a5a30"/>
+  <path d="M90 115 Q96 104 105 110 Q100 118 90 115Z" fill="#8a6a40"/>
+  <path d="M120 112 Q125 102 132 108 Q128 115 120 112Z" fill="#9a7a50"/>
+  <!-- Parmesan shavings -->
+  <path d="M80 110 Q85 106 92 110 Q86 112 80 110Z" fill="#f5e6b8" opacity="0.8"/>
+  <path d="M105 108 Q110 104 115 108 Q110 110 105 108Z" fill="#f5e6b8" opacity="0.8"/>
+  <!-- Herbs -->
+  <circle cx="98" cy="105" r="2" fill="#4a8c3f"/>
+  <circle cx="115" cy="108" r="1.5" fill="#5a9c4f"/>
+</svg>

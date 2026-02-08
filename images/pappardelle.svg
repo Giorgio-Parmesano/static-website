@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#faf3e0"/>
+  <!-- Bowl -->
+  <ellipse cx="100" cy="120" rx="75" ry="45" fill="#e8e0d0"/>
+  <ellipse cx="100" cy="115" rx="70" ry="40" fill="#f5f0e5"/>
+  <!-- Ragu sauce -->
+  <ellipse cx="100" cy="110" rx="55" ry="30" fill="#a03020"/>
+  <!-- Pappardelle ribbons -->
+  <path d="M55 108 Q75 95 95 108 Q110 118 130 105" fill="none" stroke="#f0d890" stroke-width="5" stroke-linecap="round"/>
+  <path d="M60 118 Q80 105 100 115 Q120 125 140 112" fill="none" stroke="#ecd080" stroke-width="5" stroke-linecap="round"/>
+  <path d="M65 100 Q85 88 105 100 Q125 110 145 100" fill="none" stroke="#f0d890" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Meat bits -->
+  <circle cx="80" cy="108" r="4" fill="#8a2818"/>
+  <circle cx="110" cy="105" r="3.5" fill="#7a2010"/>
+  <circle cx="95" cy="115" r="3" fill="#8a2818"/>
+  <!-- Parmesan -->
+  <path d="M120 100 Q125 96 130 100 Q125 102 120 100Z" fill="#f5e6b8"/>
+</svg>

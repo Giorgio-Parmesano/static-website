@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#faf3e0"/>
+  <!-- Glass/dish -->
+  <rect x="60" y="80" width="80" height="60" rx="5" fill="#e8e0d0"/>
+  <rect x="63" y="83" width="74" height="54" rx="3" fill="#f5f0e5"/>
+  <!-- Layers -->
+  <rect x="63" y="115" width="74" height="20" rx="0" fill="#b08050"/>
+  <rect x="63" y="100" width="74" height="15" fill="#f5e8c8"/>
+  <rect x="63" y="90" width="74" height="10" fill="#a07040"/>
+  <rect x="63" y="83" width="74" height="10" rx="3" fill="#f0ddb8"/>
+  <!-- Cocoa powder on top -->
+  <rect x="63" y="83" width="74" height="7" rx="3" fill="#6a4020" opacity="0.5"/>
+  <!-- Cocoa dusting -->
+  <circle cx="80" cy="85" r="1" fill="#5a3010" opacity="0.4"/>
+  <circle cx="95" cy="84" r="1" fill="#5a3010" opacity="0.4"/>
+  <circle cx="110" cy="86" r="1" fill="#5a3010" opacity="0.4"/>
+  <circle cx="120" cy="84" r="0.8" fill="#5a3010" opacity="0.4"/>
+</svg>

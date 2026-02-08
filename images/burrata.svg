@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#faf3e0"/>
+  <!-- Plate -->
+  <ellipse cx="100" cy="110" rx="80" ry="55" fill="#f0ebe0"/>
+  <ellipse cx="100" cy="110" rx="72" ry="48" fill="#fff"/>
+  <!-- Prosciutto slices -->
+  <path d="M55 110 Q60 90 80 95 Q75 115 55 110Z" fill="#d4736a"/>
+  <path d="M60 120 Q68 100 85 108 Q78 125 60 120Z" fill="#c9635a"/>
+  <!-- Burrata -->
+  <circle cx="110" cy="105" r="25" fill="#faf5e8"/>
+  <circle cx="110" cy="105" r="22" fill="#fff"/>
+  <ellipse cx="112" cy="108" rx="10" ry="8" fill="#fdf8ec" opacity="0.7"/>
+  <!-- Roasted pepper -->
+  <path d="M130 125 Q140 115 145 125 Q140 135 130 125Z" fill="#d44a3a"/>
+  <path d="M65 130 Q72 122 78 130 Q72 138 65 130Z" fill="#e8a030"/>
+  <!-- Olive oil drizzle -->
+  <path d="M85 98 Q95 95 105 100" fill="none" stroke="#c5a830" stroke-width="1.5" opacity="0.5"/>
+</svg>

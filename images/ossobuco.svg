@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#faf3e0"/>
+  <!-- Plate -->
+  <ellipse cx="100" cy="110" rx="80" ry="55" fill="#f0ebe0"/>
+  <ellipse cx="100" cy="110" rx="72" ry="48" fill="#fff"/>
+  <!-- Saffron risotto bed -->
+  <ellipse cx="100" cy="115" rx="50" ry="28" fill="#f0d870"/>
+  <!-- Veal shank -->
+  <ellipse cx="100" cy="105" rx="30" ry="22" fill="#8a5a3a"/>
+  <ellipse cx="100" cy="105" rx="25" ry="18" fill="#9a6a4a"/>
+  <!-- Bone marrow center -->
+  <circle cx="100" cy="105" r="8" fill="#f0e0c0"/>
+  <circle cx="100" cy="105" r="5" fill="#f5ecd0"/>
+  <!-- Gremolata -->
+  <circle cx="88" cy="95" r="2" fill="#5a9c4f"/>
+  <circle cx="112" cy="96" r="2" fill="#4a8c3f"/>
+  <circle cx="100" cy="93" r="1.5" fill="#f0e060"/>
+  <!-- Sauce -->
+  <path d="M65 118 Q80 125 100 122 Q120 118 135 125" fill="none" stroke="#6a3a1a" stroke-width="2" opacity="0.4"/>
+</svg>

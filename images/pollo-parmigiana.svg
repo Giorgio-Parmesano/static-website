@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#faf3e0"/>
+  <!-- Plate -->
+  <ellipse cx="100" cy="110" rx="80" ry="55" fill="#f0ebe0"/>
+  <ellipse cx="100" cy="110" rx="72" ry="48" fill="#fff"/>
+  <!-- Chicken cutlet -->
+  <ellipse cx="100" cy="112" rx="45" ry="22" fill="#c8a050"/>
+  <ellipse cx="100" cy="110" rx="43" ry="20" fill="#d8b060"/>
+  <!-- Tomato sauce -->
+  <ellipse cx="100" cy="106" rx="35" ry="14" fill="#c43a2a"/>
+  <!-- Melted mozzarella -->
+  <ellipse cx="100" cy="104" rx="28" ry="11" fill="#f5f0e0"/>
+  <ellipse cx="95" cy="102" rx="15" ry="8" fill="#fff" opacity="0.6"/>
+  <!-- Basil -->
+  <path d="M100 98 Q95 88 88 93 Q94 100 100 98Z" fill="#4a8c3f"/>
+  <path d="M105 96 Q110 86 116 91 Q110 98 105 96Z" fill="#5a9c4f"/>
+  <!-- Breadcrumb texture -->
+  <circle cx="65" cy="115" r="1" fill="#b89040" opacity="0.6"/>
+  <circle cx="135" cy="115" r="1" fill="#b89040" opacity="0.6"/>
+  <circle cx="70" cy="108" r="1" fill="#b89040" opacity="0.6"/>
+</svg>

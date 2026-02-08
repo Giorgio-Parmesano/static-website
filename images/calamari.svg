@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#faf3e0"/>
+  <!-- Plate -->
+  <ellipse cx="100" cy="110" rx="80" ry="55" fill="#f0ebe0"/>
+  <ellipse cx="100" cy="110" rx="72" ry="48" fill="#fff"/>
+  <!-- Calamari rings -->
+  <ellipse cx="80" cy="105" rx="12" ry="10" fill="#f0d8a0" stroke="#d4b878" stroke-width="2"/>
+  <ellipse cx="80" cy="105" rx="6" ry="5" fill="#fff"/>
+  <ellipse cx="105" cy="100" rx="11" ry="9" fill="#ecd090" stroke="#d4b878" stroke-width="2"/>
+  <ellipse cx="105" cy="100" rx="5" ry="4" fill="#fff"/>
+  <ellipse cx="95" cy="115" rx="13" ry="10" fill="#f0d8a0" stroke="#d4b878" stroke-width="2"/>
+  <ellipse cx="95" cy="115" rx="6" ry="5" fill="#fff"/>
+  <ellipse cx="115" cy="112" rx="10" ry="8" fill="#ecd090" stroke="#d4b878" stroke-width="2"/>
+  <ellipse cx="115" cy="112" rx="5" ry="4" fill="#fff"/>
+  <ellipse cx="70" cy="118" rx="11" ry="9" fill="#f0d8a0" stroke="#d4b878" stroke-width="2"/>
+  <ellipse cx="70" cy="118" rx="5" ry="4" fill="#fff"/>
+  <!-- Lemon wedge -->
+  <path d="M130 120 Q140 110 145 125 Z" fill="#f0e060"/>
+  <path d="M130 120 Q138 113 142 122" fill="none" stroke="#d4c840" stroke-width="1"/>
+  <!-- Marinara dip -->
+  <circle cx="60" cy="95" r="10" fill="#c43a2a"/>
+  <circle cx="60" cy="95" r="8" fill="#d44a3a"/>
+</svg>
