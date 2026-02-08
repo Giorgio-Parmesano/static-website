@@ -29,41 +29,68 @@
     <section class="contact-section">
       <div class="container contact-grid">
 
-        <div class="contact-info">
+        <div class="contact-info animate-on-scroll">
           <h2>Get in Touch</h2>
-          <p><strong>Address:</strong><br>123 Olive Garden Lane<br>Little Italy, NY 10013</p>
-          <p><strong>Phone:</strong><br>(212) 555-0142</p>
-          <p><strong>Email:</strong><br>info@latavola.example.com</p>
-          <p><strong>Hours:</strong></p>
-          <p>
-            Monday - Thursday: 11:00 AM - 9:00 PM<br>
-            Friday - Saturday: 11:00 AM - 10:30 PM<br>
-            Sunday: 12:00 PM - 8:00 PM
-          </p>
+          <div class="contact-detail">
+            <span class="contact-detail-icon" aria-hidden="true">&#128205;</span>
+            <div>
+              <strong>Address</strong>
+              <p>123 Olive Garden Lane<br>Little Italy, NY 10013</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail-icon" aria-hidden="true">&#128222;</span>
+            <div>
+              <strong>Phone</strong>
+              <p>(212) 555-0142</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail-icon" aria-hidden="true">&#9993;</span>
+            <div>
+              <strong>Email</strong>
+              <p>info@latavola.example.com</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail-icon" aria-hidden="true">&#128336;</span>
+            <div>
+              <strong>Hours</strong>
+              <p>
+                Mon - Thu: 11:00 AM - 9:00 PM<br>
+                Fri - Sat: 11:00 AM - 10:30 PM<br>
+                Sun: 12:00 PM - 8:00 PM
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div class="reservation-form">
+        <div class="reservation-form animate-on-scroll">
           <h2>Make a Reservation</h2>
           <form id="reservation-form" action="#" method="post">
             <div class="form-group">
               <label for="name">Full Name</label>
-              <input type="text" id="name" name="name" required>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
             </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000">
+              </div>
             </div>
-            <div class="form-group">
-              <label for="phone">Phone</label>
-              <input type="tel" id="phone" name="phone">
-            </div>
-            <div class="form-group">
-              <label for="date">Date</label>
-              <input type="date" id="date" name="date" required>
-            </div>
-            <div class="form-group">
-              <label for="time">Time</label>
-              <input type="time" id="time" name="time" required>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required>
+              </div>
+              <div class="form-group">
+                <label for="time">Time</label>
+                <input type="time" id="time" name="time" required>
+              </div>
             </div>
             <div class="form-group">
               <label for="guests">Number of Guests</label>
@@ -80,7 +107,7 @@
             </div>
             <div class="form-group">
               <label for="message">Special Requests</label>
-              <textarea id="message" name="message" rows="4"></textarea>
+              <textarea id="message" name="message" rows="4" placeholder="Any dietary requirements, special occasions, or seating preferences..."></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Request Reservation</button>
           </form>
@@ -92,10 +119,34 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; 2026 La Tavola. All rights reserved.</p>
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">La Tavola</a>
+          <p>Authentic Italian cuisine by Chef Giorgio Parmegiano. From our family to yours, every dish tells a story of tradition and passion.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="contact.html">Reservations</a></li>
+          </ul>
+        </div>
+        <div class="footer-hours">
+          <h4>Hours</h4>
+          <p>Mon-Thu: 11am - 9pm</p>
+          <p>Fri-Sat: 11am - 10:30pm</p>
+          <p>Sun: 12pm - 8pm</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 La Tavola. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 
+  <button class="back-to-top" aria-label="Back to top">&#8593;</button>
   <script src="js/main.js"></script>
 </body>
 </html>

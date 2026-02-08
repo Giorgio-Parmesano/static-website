@@ -23,35 +23,54 @@
   <main>
     <section class="hero">
       <div class="hero-content">
-        <h1>Welcome to La Tavola</h1>
-        <p>Authentic Italian cuisine crafted with passion and tradition</p>
-        <a href="menu.html" class="btn btn-primary">View Our Menu</a>
-        <a href="contact.html" class="btn btn-secondary">Make a Reservation</a>
+        <p class="hero-subtitle">Ristorante Italiano</p>
+        <h1>La Tavola</h1>
+        <p>Authentic Italian cuisine crafted with passion and tradition by Chef Giorgio Parmegiano</p>
+        <div class="hero-buttons">
+          <a href="menu.html" class="btn btn-primary">View Our Menu</a>
+          <a href="contact.html" class="btn btn-secondary">Make a Reservation</a>
+        </div>
       </div>
     </section>
 
     <section class="features">
+      <div class="features-heading">
+        <h2>Why La Tavola</h2>
+        <div class="section-divider"><span>&#10041;</span></div>
+      </div>
       <div class="container">
-        <div class="feature">
+        <div class="feature animate-on-scroll">
+          <span class="feature-icon" aria-hidden="true">&#127807;</span>
           <h3>Fresh Ingredients</h3>
           <p>We source the finest local and imported Italian ingredients to bring authentic flavors to every dish.</p>
         </div>
-        <div class="feature">
+        <div class="feature animate-on-scroll">
+          <span class="feature-icon" aria-hidden="true">&#128214;</span>
           <h3>Family Recipes</h3>
           <p>Our recipes have been passed down through generations, preserving the true taste of Italy.</p>
         </div>
-        <div class="feature">
+        <div class="feature animate-on-scroll">
+          <span class="feature-icon" aria-hidden="true">&#127863;</span>
           <h3>Warm Atmosphere</h3>
           <p>Enjoy your meal in a cozy, welcoming space designed to feel like a home away from home.</p>
         </div>
       </div>
     </section>
 
+    <section class="cta-banner">
+      <div class="container">
+        <h2>Experience the Taste of Italy</h2>
+        <p>Join us for an unforgettable dining experience with dishes that celebrate the heart of Italian tradition.</p>
+        <a href="menu.html" class="btn btn-secondary">Explore the Menu</a>
+      </div>
+    </section>
+
     <section class="hours-section">
       <div class="container">
         <h2>Hours &amp; Location</h2>
+        <div class="section-divider"><span>&#10041;</span></div>
         <div class="hours-grid">
-          <div class="hours">
+          <div class="hours animate-on-scroll">
             <h3>Opening Hours</h3>
             <ul>
               <li><span>Monday - Thursday</span><span>11:00 AM - 9:00 PM</span></li>
@@ -59,11 +78,11 @@
               <li><span>Sunday</span><span>12:00 PM - 8:00 PM</span></li>
             </ul>
           </div>
-          <div class="location">
+          <div class="location animate-on-scroll">
             <h3>Find Us</h3>
-            <p>123 Olive Garden Lane<br>Little Italy, NY 10013</p>
-            <p>Phone: (212) 555-0142</p>
-            <p>Email: info@latavola.example.com</p>
+            <p><strong>Address</strong><br>123 Olive Garden Lane<br>Little Italy, NY 10013</p>
+            <p><strong>Phone</strong><br>(212) 555-0142</p>
+            <p><strong>Email</strong><br>info@latavola.example.com</p>
           </div>
         </div>
       </div>
@@ -72,10 +91,34 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; 2026 La Tavola. All rights reserved.</p>
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">La Tavola</a>
+          <p>Authentic Italian cuisine by Chef Giorgio Parmegiano. From our family to yours, every dish tells a story of tradition and passion.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="contact.html">Reservations</a></li>
+          </ul>
+        </div>
+        <div class="footer-hours">
+          <h4>Hours</h4>
+          <p>Mon-Thu: 11am - 9pm</p>
+          <p>Fri-Sat: 11am - 10:30pm</p>
+          <p>Sun: 12pm - 8pm</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 La Tavola. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 
+  <button class="back-to-top" aria-label="Back to top">&#8593;</button>
   <script src="js/main.js"></script>
 </body>
 </html>
