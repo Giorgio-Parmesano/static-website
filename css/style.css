@@ -107,8 +107,8 @@ img {
 
 /* ===== Hero ===== */
 .hero {
-  background: linear-gradient(rgba(26, 26, 26, 0.65), rgba(26, 26, 26, 0.65)),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400'%3E%3Crect fill='%238b2500' width='600' height='400'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23d4a853' font-size='40' font-family='Georgia'%3ELa Tavola%3C/text%3E%3C/svg%3E");
+  background: linear-gradient(rgba(26, 26, 26, 0.5), rgba(26, 26, 26, 0.5)),
+    url("../images/Gemini_Generated_Image_u0nbzbu0nbzbu0nb.png");
   background-size: cover;
   background-position: center;
   min-height: 80vh;
