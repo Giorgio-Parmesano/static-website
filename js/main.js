@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Scroll-triggered animations
+  // Scroll-triggered animations with staggered delays
   var animatedElements = document.querySelectorAll(".animate-on-scroll");
 
   if (animatedElements.length > 0) {
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         });
       },
-      { threshold: 0.15 }
+      { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
     );
 
     animatedElements.forEach(function (el) {
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (backToTop) {
     window.addEventListener("scroll", function () {
-      if (window.scrollY > 400) {
+      if (window.scrollY > 500) {
         backToTop.classList.add("visible");
       } else {
         backToTop.classList.remove("visible");
@@ -55,16 +55,27 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Header shadow on scroll
+  // Header scroll effect
   var header = document.querySelector(".site-header");
 
   if (header) {
     window.addEventListener("scroll", function () {
-      if (window.scrollY > 10) {
-        header.style.boxShadow = "0 2px 20px rgba(0, 0, 0, 0.3)";
+      if (window.scrollY > 20) {
+        header.classList.add("scrolled");
       } else {
-        header.style.boxShadow = "none";
+        header.classList.remove("scrolled");
       }
     });
   }
+
+  // Smooth reveal for menu items on hover
+  var menuItems = document.querySelectorAll(".menu-item");
+  menuItems.forEach(function (item) {
+    item.addEventListener("mouseenter", function () {
+      this.style.zIndex = "2";
+    });
+    item.addEventListener("mouseleave", function () {
+      this.style.zIndex = "";
+    });
+  });
 });
